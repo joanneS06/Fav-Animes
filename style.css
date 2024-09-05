@@ -1,0 +1,29 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #f9912f;
+}
+
+h2 {
+    color: #e594b1;
+}
+
+.horizontal-list {
+    list-style-type: bullets; /* Add bullets */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox to arrange items horizontally */
+}
+
+.horizontal-list li {
+    margin-right: 20px; /* Space between list items */
+}
+
+/* Optional: Remove margin from the last item */
+.horizontal-list li:last-child {
+    margin-right: 0;
+}
