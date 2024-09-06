@@ -12,12 +12,6 @@ h2 {
     color: #ff7ac1;
 }
 
-img {
-    width: 300px;
-    height: 200px;
-}
-
-
 .horizontal-list {
     list-style-type: bullets; /* Add bullets */
     padding: 0;
