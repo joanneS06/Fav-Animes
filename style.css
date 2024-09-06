@@ -8,10 +8,6 @@ h1 {
     color: #f9912f;
 }
 
-h2 {
-    color: #e594b1;
-}
-
 .horizontal-list {
     list-style-type: bullets; /* Add bullets */
     padding: 0;
