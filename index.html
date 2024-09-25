@@ -30,20 +30,33 @@
             width: 100px; /* Set a fixed width for images */
             height: auto; /* Maintain aspect ratio */
         }
+
+        caption {
+        margin-top: 5px; /* Space between image and caption */
+        font-size: 14px; /* Font size for caption */
+        color: #333; /* Caption color */
     </style>
 </head>
 <body>
     <h1 style="font-size:180px;">My Fav Animes</h1>
     <h2 style="font-size:90px;">Shonen:</h2>
     <div class="horizontal-list">
-        <img src="images/p10701949_b_v8_ah.jpg" alt="Attack On Titan" style="width: 500px; height: auto;">
-        <p style="font-size:60px;">Attack On Titan</p>
-        <img src="images/naruto.jpg" alt="Naruto" style="width: 500px; height: auto;">
-        <p style="font-size:60px;">Naruto</p>
-        <img src="images/jjk.jpg" alt="Jujutsu Kaisen" style="width: 500px; height: auto;">
-        <p style="font-size:60px;">Jujutsu Kaisen</p>
-        <img src="images/yuyuhakusho.jpg" alt="Yu YU Hakusho" style="width: 500px; height: auto;">
-        <p style="font-size:60px;">Yu Yu Hakusho</p>
+        <li>
+            <img src="images/p10701949_b_v8_ah.jpg" alt="Attack On Titan" style="width: 500px; height: auto;">
+            <p class="caption" style="font-size:60px;">Attack On Titan</p>
+        </li>
+        <li>
+            <img src="images/naruto.jpg" alt="Naruto" style="width: 500px; height: auto;">
+            <p class="caption" style="font-size:60px;">Naruto</p>
+        </li>
+        <li>
+            <img src="images/jjk.jpg" alt="Jujutsu Kaisen" style="width: 500px; height: auto;">
+            <p class="caption" style="font-size:60px;">Jujutsu Kaisen</p>
+        </li>
+        <li>
+            <img src="images/yuyuhakusho.jpg" alt="Yu YU Hakusho" style="width: 500px; height: auto;">
+            <p class="caption" style="font-size:60px;">Yu Yu Hakusho</p>
+        </li>
     </div>
   <h2 style="font-size:90px;">Shojo:</h2>
       <div class="horizontal-list">
