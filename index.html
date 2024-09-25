@@ -12,29 +12,30 @@
         }
 
         h1 {
-            color: #333;
+            color: #8290f7;
         }
 
         .horizontal-list {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove padding */
+            display: flex; /* Use flexbox for horizontal alignment */
+            justify-content: center; /* Center the images */
         }
 
         .horizontal-list li {
-            margin-right: 20px;
+            margin: 10px; /* Space between images */
         }
 
-        .horizontal-list li:last-child {
-            margin-right: 0;
+        .horizontal-list img {
+            width: 100px; /* Set a fixed width for images */
+            height: auto; /* Maintain aspect ratio */
         }
     </style>
 </head>
 <body>
     <h1 style="font-size:180px;">My Fav Animes</h1>
     <h2 style="font-size:90px;">Shonen:</h2>
-    <div class="image-container">
+    <div class="horizontal-list">
         <img src="images/p10701949_b_v8_ah.jpg" alt="Attack On Titan" style="width: 500px; height: auto;">
         <p style="font-size:60px;">Attack On Titan</p>
         <img src="images/naruto.jpg" alt="Naruto" style="width: 500px; height: auto;">
@@ -45,7 +46,7 @@
         <p style="font-size:60px;">Yu Yu Hakusho</p>
     </div>
   <h2 style="font-size:90px;">Shojo:</h2>
-      <div class="image-container">
+      <div class="horizontal-list">
           <img src="images/KimitodoDVD1.jpg" alt="Kimi ni Todoke" style="width: 500px; height: auto;">
          <p style="font-size:60px;">Kimi ni Todoke</p>
           <img src="images/Your_Lie_in_April_Manga_cover.png" alt="Your Lie In April" style="width: 500px; height: auto;">

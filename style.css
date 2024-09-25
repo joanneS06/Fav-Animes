@@ -4,19 +4,7 @@ body {
     margin: 20px;
 }
 
-h1 {
-    color: #8290f7;
-}
-
 h2 {
     color: #ff7ac1;
 }
 
-.container {
-    text-align: center; /* Center the text */
-}
-
-.container img {
-    display: block; /* Remove inline spacing */
-    margin: 0 auto; /* Center the image */
-}
