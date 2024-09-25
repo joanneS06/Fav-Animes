@@ -12,18 +12,11 @@ h2 {
     color: #ff7ac1;
 }
 
-.horizontal-list {
-    list-style-type: bullets; /* Add bullets */
-    padding: 0;
-    margin: 0;
-    display: flex; /* Use flexbox to arrange items horizontally */
+.container {
+    text-align: center; /* Center the text */
 }
 
-.horizontal-list li {
-    margin-right: 20px; /* Space between list items */
-}
-
-/* Optional: Remove margin from the last item */
-.horizontal-list li:last-child {
-    margin-right: 0;
+.container img {
+    display: block; /* Remove inline spacing */
+    margin: 0 auto; /* Center the image */
 }
