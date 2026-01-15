@@ -7,34 +7,39 @@ body {
     background-image: url('images/_.jpeg');
     background-size: cover;
     background-position: center;
-}
 
-.horizontal-list {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
-    display: flex; /* Use flexbox for horizontal alignment */
-    justify-content: center; /* Center the images */
-}
 
-.horizontal-list li {
-    margin: 10px; /* Space between images */
-}
+    .horizontal-list {
+        list-style-type: none; /* Remove bullet points */
+        padding: 0; /* Remove padding */
+        display: flex; /* Use flexbox for horizontal alignment */
+        justify-content: center; /* Center the images */
+    }
 
-.horizontal-list img {
-    width: 100px; /* Set a fixed width for images */
-    height: auto; /* Maintain aspect ratio */
-}
+    .horizontal-list li {
+        margin: 10px; /* Space between images */
+    }
 
-.caption {
-    margin-top: 5px; /* Space between image and caption */
-    font-size: 14px; /* Font size for caption */
-    color: #dc2e36; /* Caption color */
-}
+    .horizontal-list img {
+        width: 100px; /* Set a fixed width for images */
+        height: auto; /* Maintain aspect ratio */
+    }
 
-.h1 {
-    color: #61b876;
-}
+    .title {
+        color: #aa272d;
+    }
 
-.h2 {
-    color: #632c2c;
+    .caption {
+        margin-top: 5px; /* Space between image and caption */
+        font-size: 14px; /* Font size for caption */
+        color: #3b134e; /* Caption color */
+    }
+
+    .h1 {
+        color: #61b876;
+    }
+
+    .h2 {
+        color: #153684;
+    }
 }
